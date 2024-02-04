@@ -1,0 +1,197 @@
+body{
+    background: #e7e7e775;
+    text-align: justify;
+}
+.container-fluid.bg-blue.py-2.header-upper {
+    background: black;
+}
+.py-2 {
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
+li.list-group-item {
+    background: black;
+}
+li.list-group-item a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+li.list-group-item a:hover{
+    color: #979797;
+    transition: 0.5s;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    font-weight: 600;
+    font-size: 15px;
+}
+.secFirst{
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.705)  0 0%, rgba(0, 0, 0, 0.705) 70% 100%), url(./Images/bg-img.webp);
+    width: 100%;
+    height: 120vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 2%;
+}
+.heading{
+    margin-top: 15%;
+}
+.heading strong{
+    border: 4px solid #fff;
+    font-size: 80px;
+    color: #fff;
+    padding: 10px;
+}
+.btn{
+    background: #000;
+    margin-top: 3%;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.btnjoin{
+    width: 18%;
+    font-size: 18px;
+}
+/* = = = = Programs = = = = */
+.subHeading{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.cardItems{
+    margin-top: 10%;
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #666;
+}
+.btnRm{
+    font-size: 15px;
+}
+.btnRm:hover{
+    background: blue;
+    color: #fff;
+}
+@media screen and (max-width:600px) { 
+    li.list-group-item a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .secFirst{
+        background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.705)  0 0%, rgba(0, 0, 0, 0.705) 70% 100%), url(./Images/bg-img.jpg);
+        height: auto;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        padding-bottom: 70px;
+        width: 100%;
+    }
+    .heading strong{
+        border: none;
+        font-size: 80px;
+        color: #fff;
+        padding: 10px;
+        text-align: justify;
+    }
+    .card{
+        width: 100%;
+    }
+}
+/* = = = = PREMIUM PLANS = = = = */
+ul{
+    list-style-type: none;
+    text-align: left !important;
+}
+li{
+    padding-top: 10px;
+    font-size: 20px;
+}
+strong{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.863);
+}
+h6{
+    color: rgb(189, 188, 188);
+}
+.btn-bn{
+    width: 70%;
+} 
+/* = = = = PROGRAMS PAGE = = = = */
+.programCard{
+    background: #fff;
+    box-shadow:  2px 2px 8px #0000007c;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.inline-block
+{
+	display:inline-block;
+}
+.bigHeading
+{
+	font-size:60px;
+}
+.bigHeading1
+{
+	font-size:40px;
+}
+/* = = = = FOOTER = = = = */
+.footer{
+    background: #000000;
+    color: #979797;
+}
+.groupTitle{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.footer li{
+    font-size: 15px;
+    list-style-type: none;  
+    padding-top: .5rem;
+} 
+.footer .footerlist{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.footer .footerlist a{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration:none; 
+    color:#979797;
+}
+.footer .footerlist:hover{
+    color: rgb(255, 255, 255);
+    transform: translateX(7px);
+}
+.footer .footerlist a:hover{
+    color: rgb(255, 255, 255);
+    transform: translateX(7px);
+}
+.socialLinks{
+    padding-left: 15px;
+    transition: 0.3s;
+}
+.socialLinks:hover{
+    color: rgb(255, 255, 255);
+}
+/* = = = = DASHBOARD = = = =*/
+.nav-pills li a:hover{
+    background-color: blue;
+}
+
+.profileCard{
+    box-shadow: 1px 0px 5px #fff;
+}
